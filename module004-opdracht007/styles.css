@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana, sans-serif;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+#filmList {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list-item {
+  margin: 10px;
+}
